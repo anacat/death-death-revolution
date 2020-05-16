@@ -20,6 +20,7 @@
 			#pragma fragment frag
 
 			#include "UnityCG.cginc"
+			#include "Assets/Shaders/BlendModes.cginc"
 
 			sampler2D _MainTex;
 			float4 _MainTex_ST;

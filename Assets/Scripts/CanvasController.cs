@@ -56,7 +56,7 @@ public class CanvasController : MonoBehaviour
                     leftSlider.gameObject.SetActive(false);
                     rightSlider.gameObject.SetActive(false);
 
-                    if (elapsedTime >= 5f)
+                    if (elapsedTime >= 5f && kinectView.GetComponent<Rigidbody>() == null)
                     {
                         kinectView.AddComponent<Rigidbody>();
                     }

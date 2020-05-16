@@ -1,9 +1,5 @@
 ﻿Shader "Unlit/DanceShader"
 {
-	Properties
-	{
-		_MainTex ("Texture", 2D) = "white" {}
-	}
 	SubShader
 	{
 		Tags { "RenderType"="Opaque" }

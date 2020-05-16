@@ -5,6 +5,11 @@ public class ExitGame : MonoBehaviour
 {
     public bool exit;
 
+    private void Awake()
+    {
+        Cursor.visible = false;
+    }
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
